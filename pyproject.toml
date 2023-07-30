@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "pythoncore-project"
+version = "0.1.0"
+description = "Assistant"
+authors = ["9-Bogdan <127949078+9-Bogdan@users.noreply.github.com>"]
+readme = "README.md"
+#packages = [{include = "pythoncore_project"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pyfiglet = "^0.8.post1"
+art = "^6.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
